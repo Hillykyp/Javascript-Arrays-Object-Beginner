@@ -17,13 +17,12 @@ let name = (params) => {
 
 */
 document.write('<h1>Functions</h1>');
-function sumAdd(num1,num2){
-let r=5;
-let t=7;
-let total = r+t;
+function sumAdd (num1, num2) {
+  let total = num1 + num2;
 document.write(total);
-} 
-sumAdd(); 
+};
+
+sumAdd(5,7); 
 
 document.write('<br>')
 function multi1(x,y){
