@@ -57,12 +57,25 @@ for (let i = 0; i < arr1.length; i++) {
 
 // Objects
 // Functions found in objects are called methods
+// Checking if an property is found in an object.use in 
+let workHours = {
+    mon: 8,
+    tues: 8,
+    wed: 10,
+    thurs: 8,
+    fri: 84
+}
+
+document.write(workHours.length);
+delete workHours.thurs
+document.write('<br>');
 const car = {
     car_brand: 'Tesla',
     car_model: 'Model 3',
     price: 3500,
     teslaAutoPilot: function() {
-        document.write('This car has Auto Pilot ')
+        document.write('This car has Auto Pilot ');
+
     }
 
 }
@@ -86,8 +99,8 @@ const f1 = new foodb('Egg', 'Cabbage', 'Maize')
 
 let f2 = new foodb('Mutton', 'kales', 'potato')
 
-f1.balanceDiet()
-document.write('<br>')
+f1.balanceDiet();
+document.write('<br>');
 
 document.write(f1.protein + ', ' + f2.vitamins)
 
@@ -114,8 +127,8 @@ document.write('<br>')
 
 // delete foodb.vitamins;
 
-document.write(car.car_brand)
-document.write('<br>')
+document.write(car.car_brand);
+document.write('<br>');
 document.write(f1.Carbohydrates + '<br>')
 
 // Object with properties and methods
